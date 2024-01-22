@@ -5,16 +5,16 @@ This project will cover HTML, CSS and a little bit of JS
 Create a responsive photo gallery that showcases images in a visually appealing layout. The gallery
 should utilize CSS Flexbox for positioning and responsiveness.
 #Requirements:
-1. HTML Structure:
+1. HTML Structure: √
 Create an HTML file that includes a header, a main content area for the photo gallery, and a footer.
-2. CSS Styling:
+2. CSS Styling: √
 Use CSS Flexbox to create a responsive grid layout for the photo gallery.
 Style the header and footer for a cohesive design.
 Apply appropriate spacing, colors, and fonts to enhance the visual appeal.
-3. Photo Grid:
+3. Photo Grid: √
 Display a grid of photos using Flexbox. Each photo should be in a flex item.
 Photos can be placeholders or related to a specific theme (e.g., nature, architecture, travel).
-4. Responsive Design:
+4. Responsive Design: √
 Ensure that the photo gallery layout is responsive, adjusting gracefully for different screen sizes.
 Implement a mobile-first approach, considering small screens initially and enhancing for larger
 screens.
