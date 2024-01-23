@@ -5,40 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="/script.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header class="heading">
         <h1>Welcome to Kevin's Photo Gallery</h1>
     </header>
+    
     <main>
-        <section class="modal hidden">
-            <div class="flex">
-                <img src="Assets/smol.jpg" alt="">
-                <button class="btn-close">X</button>
-            </div>
-            <div>
-                <h3>My Photo!</h3>
-                <p>This is a dummy decsription of this foto</p>
-            </div>
-            
-        </section>
-        <div class="overlay hidden"></div>
-        <button class="btn btn-open">Open Modal</button>
 
         <div class="Gallery">
-            <img src="Assets/smol.jpg" alt="">
-            <img src="Assets/smol.jpg" alt="">
-            <img src="Assets/smol.jpg" alt="">
-            <img src="Assets/smol.jpg" alt="">
-            <img src="Assets/smol.jpg" alt="">
-            <img src="Assets/smol.jpg" alt="">
-            <img src="Assets/smol.jpg" alt="">
-            <img src="Assets/smol.jpg" alt="">
-            <img src="Assets/smol.jpg" alt="">
-            <img src="Assets/smol.jpg" alt="">
-            <img src="Assets/smol.jpg" alt="">
+            <img onclick="image(event)" class="myImg" src="Assets/img1.jpg" alt="Smiling orange robot" id="img1">
+            <img onclick="image(event)" class="myImg" src="Assets/img2.avif" alt="Little orange box robot" id="img2">
+            <img onclick="image(event)" class="myImg" src="Assets/img3.avif" alt="Skull head orange and black robot" id="img3">
+            <img onclick="image(event)" class="myImg" src="Assets/img4.png" alt="Box camera orange robot" id="img4">
+            <img onclick="image(event)" class="myImg" src="Assets/img5.png" alt="Black and orange robots about to battle" id="img5">
+            <img onclick="image(event)" class="myImg" src="Assets/img6.jpg" alt="Happy little orange robot" id="img6">
+            <img onclick="image(event)" class="myImg" src="Assets/img7.jpg" alt="Complex and messy looking robot" id="img7">
+            <img onclick="image(event)" class="myImg" src="Assets/img8.jpg" alt="Confuzed robot with goggles" id="img8">
+            <img onclick="image(event)" class="myImg" src="Assets/img9.avif" alt="Robot with orange eyes and a blank stare" id="img9">
+            <img onclick="image(event)" class="myImg" src="Assets/img10.avif" alt="Black robot with happy orange eyes" id="img10">
+            <img onclick="image(event)" class="myImg" src="Assets/img11.jpg" alt="3 Strange robots facing to the sides" id="img11">
+        </div>    
+
+        <!--Method 3-->
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+            
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+            
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
         </div>
+
     </main>
     <footer>
         <div>
@@ -47,3 +50,26 @@
     </footer>
 </body>
 </html>
+
+
+        <!--METHOD 1
+        <section id="myModal" class="modal hidden">
+            <div class="flex">
+                <button class="btn-close">X</button>
+                <img class="modal-content" id="img01">
+                <p id="caption">This is a dummy decsription of this foto</p>
+            </div>
+            
+        </section>
+        <div class="overlay hidden"></div>
+        <button class="btn btn-open">Open Modal</button>
+
+
+
+        METHOD 2
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+        -->

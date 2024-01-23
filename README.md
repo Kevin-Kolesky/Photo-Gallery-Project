@@ -18,7 +18,7 @@ Photos can be placeholders or related to a specific theme (e.g., nature, archite
 Ensure that the photo gallery layout is responsive, adjusting gracefully for different screen sizes.
 Implement a mobile-first approach, considering small screens initially and enhancing for larger
 screens.
-5. Hover Effects:
+5. Hover Effects:√
 Implement hover effects on the photos. For example, you could increase the size or add a subtle
 border.
 6. Modal or Lightbox: When a user clicks on a photo, display a larger version of the image in a modal or lightbox. The
