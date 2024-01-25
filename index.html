@@ -13,7 +13,19 @@
     </header>
     
     <main>
+        
+            <div id="myModal" class="modal">
 
+                <span class="close">&times;</span>
+
+                <img class="modal-content" id="img01">
+            
+                <div id="caption"></div>
+
+            </div>
+  
+        <div class="overlay hidden"></div>
+        
         <div class="Gallery">
             <img onclick="image(event)" class="myImg" src="Assets/img1.jpg" alt="Smiling orange robot" id="img1">
             <img onclick="image(event)" class="myImg" src="Assets/img2.avif" alt="Little orange box robot" id="img2">
@@ -27,21 +39,6 @@
             <img onclick="image(event)" class="myImg" src="Assets/img10.avif" alt="Black robot with happy orange eyes" id="img10">
             <img onclick="image(event)" class="myImg" src="Assets/img11.jpg" alt="3 Strange robots facing to the sides" id="img11">
         </div>    
-
-        <!--Method 3-->
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-
-            <!-- The Close Button -->
-            <span class="close">&times;</span>
-            
-            <!-- Modal Content (The Image) -->
-            <img class="modal-content" id="img01">
-            
-            <!-- Modal Caption (Image Text) -->
-            <div id="caption"></div>
-        </div>
-
     </main>
     <footer>
         <div>
@@ -50,26 +47,3 @@
     </footer>
 </body>
 </html>
-
-
-        <!--METHOD 1
-        <section id="myModal" class="modal hidden">
-            <div class="flex">
-                <button class="btn-close">X</button>
-                <img class="modal-content" id="img01">
-                <p id="caption">This is a dummy decsription of this foto</p>
-            </div>
-            
-        </section>
-        <div class="overlay hidden"></div>
-        <button class="btn btn-open">Open Modal</button>
-
-
-
-        METHOD 2
-        <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div>
-        </div>
-        -->
