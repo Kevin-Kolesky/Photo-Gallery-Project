@@ -21,10 +21,10 @@ screens.
 5. Hover Effects:√
 Implement hover effects on the photos. For example, you could increase the size or add a subtle
 border.
-6. Modal or Lightbox: When a user clicks on a photo, display a larger version of the image in a modal or lightbox. The
-modal should close when clicking outside or on a close button.
-7. Caption or Description:
+6. Modal or Lightbox: When a user clicks on a photo, display a larger version of the image in a modal or lightbox.√
+The modal should close when clicking outside or on a close button.
+7. Caption or Description:√
 Include a caption or description for each photo in the modal or lightbox. This information should
 be visible when the user interacts with a photo.
-8. Navigation:
+8. Navigation:√
 Add navigation buttons within the modal to allow users to move between different photos.
